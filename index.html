@@ -1,68 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Car review</title>
-        <link rel="stylesheet" href="./css/fonts.css">
-        <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <!-- header start -->
     <header>
-        <div class="container">
-            <nav class="nav">
-                <a href="#" class="nav__logo">
-                    <img src="./img/icons/mainLogo.svg" alt="">
-                </a>
-                <ul class="nav__list">
-                    <li class="nav__list--item"><a href="#" class="nav__list--item-link">Home</a></li>
-                    <li class="nav__list--item"><a href="#" class="nav__list--item-link">About</a></li>
-                    <li class="nav__list--item"><a href="#" class="nav__list--item-link">Popular</a></li>
-                    <li class="nav__list--item"><a href="#" class="nav__list--item-link">Feature</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="container">
+        <nav class="nav">
+          <a href="#" class="nav__logo">
+            <img src="./img/icons/mainLogo.svg" alt="" />
+          </a>
+          <ul class="nav__list">
+            <li class="nav__list--item">
+              <a href="#" class="nav__list--item-link active">Home</a>
+            </li>
+            <li class="nav__list--item">
+              <a href="#" class="nav__list--item-link">About</a>
+            </li>
+            <li class="nav__list--item">
+              <a href="#" class="nav__list--item-link">Popular</a>
+            </li>
+            <li class="nav__list--item">
+              <a href="#" class="nav__list--item-link">Feature</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-<!-- header end -->
-<main>
-    <!-- intro srction start -->
-    <section class="intro">
+    <!-- header end -->
+    <main>
+      <!-- intro srction start -->
+      <section class="intro">
         <div class="container">
-            <div class="wrapper">
-                <h1 class="intro__title">Choose The Best Car</h1>
-                <h3 class="intro__subtitle">Porsche Mission E</h3>
-                <span>
-                    <img src="./img/icons//flashlight-fill.svg" alt="iconmain">
-                    <small>Electric Car</small>
-                </span>
-                <img src="./img/porch-lob1.png" srcset="./img/porch-lob1.png 1x, ./img/porch-lob2.png 2x" alt="porch">
-                <div class="intro__info">
-                    <div class="intro__info--item">
-                        <img src="./img/icons/temperature-icon.svg" alt="">
-                        <p class="info">24°</p>
-                        <p class="info__text">TEMPERATURE</p>
-                    </div>
-                    <div class="intro__info--item">
-                        <img src="./img/icons/km-icom.svg" alt="kilometr">
-                        <p class="info">873</p>
-                        <p class="info__text">MILEAGE</p>
-                    </div>
-                    <div class="intro__info--item">
-                        <img src="./img/icons/charger-icon.svg" alt="kilometr">
-                        <p class="info">94%</p>
-                        <p class="info__text">BATTERY</p>
-                    </div>
-                    <div class="intro__start">
-                        <h2>START</h2>
-                    </div>
-                </div>
+          <div class="wrapper">
+            <h1 class="intro__title">Choose The Best Car</h1>
+            <h3 class="intro__subtitle">Porsche Mission E</h3>
+            <span>
+              <img src="./img/icons//flashlight-fill.svg" alt="iconmain" />
+              <small>Electric Car</small>
+            </span>
+            <img
+              class="intro__car"
+              src="./img/porch-lob1.png"
+              srcset="./img/porch-lob1.png 1x, ./img/porch-lob2.png 2x"
+              alt="porch"
+            />
+            <div class="intro__info">
+              <div class="intro__info--item">
+                <img src="./img/icons/temperature-icon.svg" alt="" />
+                <p class="info">24°</p>
+                <p class="info__text">TEMPERATURE</p>
+              </div>
+              <div class="intro__info--item">
+                <img src="./img/icons/km-icom.svg" alt="kilometr" />
+                <p class="info">873</p>
+                <p class="info__text">MILEAGE</p>
+              </div>
+              <div class="intro__info--item">
+                <img src="./img/icons/charger-icon.svg" alt="kilometr" />
+                <p class="info">94%</p>
+                <p class="info__text">BATTERY</p>
+              </div>
             </div>
+            <div class="intro__start">
+              <h2>START</h2>
+            </div>
+          </div>
         </div>
-    </section>
-    <!-- intro srction end -->
-</main>
+      </section>
+      <!-- intro section end -->
 
-</body>
+      <!-- about section started -->
+      <section class="about">
+        <div class="container about__container">
+          <div class="about__left">
+            <img src="./img/about-salon.png" alt="car salon image" />
+            <div class="about__left-inform">
+              <h3>2.500+</h3>
+              <p>Supercharges placed along popular routes</p>
+            </div>
+          </div>
+          <di class="about__right">
+            <h3 class="about__right-title">Machines With Future Technology</h3>
+            <p class="about__right-desc">
+              See the future with high-performance electric cars produced by
+              renowned brands. They feature futuristic builds and designs with
+              new and innovative platforms that last a long time.
+            </p>
+            <button class="about__right-button">Know more</button>
+          </di>
+        </div>
+      </section>
+      <!-- about section finished -->
+
+      <!-- popular section started -->
+      <section class="popular">
+        <div class="container popular__container">
+          <h2 class="popular__title">Choose Your Electric Car Of The Porsche Brand
+          </h2>
+          <ul class="popular__cards">
+            <li class="popular__card">
+              <h4 class="popular__card__title">Porsche</h4>
+              <p class="popular__card__text">Turbo S</p>
+              <img class="popular__card__image" src="./img/porch-left-black2.png" alt="" />
+              <div class="popular__card__info">
+                <span class="popular__card__info__desc">
+                  <img src="./img/icons/dashboard.svg" alt="car dashboard" />
+                  <p> 3.7 Sec</p>
+                </span>
+                <span class="popular__card__info__desc">
+                  <img src="./img/icons/funds-box.svg" alt="max speed show" />
+                  <p>356Km/h</p>
+                </span>
+                <span class="popular__card__info__desc">
+                  <img src="./img/icons/charging.svg" alt="" />
+                  <p>Electric</p>
+                </span>
+               
+              </div>
+              <p class="popular__card__price">$175.900</p>
+              <div class="popular__buscet">
+                <img src="./img/icons/shopping-bag.svg" alt="">
+              </div>
+            </li>
+            <li class="popular__card">
+              <h4 class="popular__card__title">Porsche</h4>
+              <p class="popular__card__text">Taycan</p>
+              <img class="popular__card__image" src="./img/porch-taycan2.png" alt="" />
+              <div class="popular__card__info">
+                <span class="popular__card__info__desc">
+                  <img src="./img/icons/dashboard.svg" alt="car dashboard" />
+                  <p> 3.0 Sec</p>
+                </span>
+                <span class="popular__card__info__desc">
+                  <img src="./img/icons/funds-box.svg" alt="max speed show" />
+                  <p>412Km/h</p>
+                </span>
+                <span class="popular__card__info__desc">
+                  <img src="./img/icons/charging.svg" alt="" />
+                  <p>Electric</p>
+                </span>
+               
+              </div>
+              <p class="popular__card__price">$114.900</p>
+              <div class="popular__buscet">
+                <img src="./img/icons/shopping-bag.svg" alt="">
+              </div>
+            </li>
+            <li class="popular__card">
+              <h4 class="popular__card__title">Porsche</h4>
+              <p class="popular__card__text">Turbo S Cross</p>
+              <img class="popular__card__image" src="./img/porch-left-car2.png" alt="" />
+              <div class="popular__card__info">
+                <span class="popular__card__info__desc">
+                  <img src="./img/icons/dashboard.svg" alt="car dashboard" />
+                  <p> 3.2 Sec</p>
+                </span>
+                <span class="popular__card__info__desc">
+                  <img src="./img/icons/funds-box.svg" alt="max speed show" />
+                  <p>385Km/h</p>
+                </span>
+                <span class="popular__card__info__desc">
+                  <img src="./img/icons/charging.svg" alt="" />
+                  <p>Electric</p>
+                </span>
+                
+              </div>
+              <p class="popular__card__price">$172.600</p>
+              <div class="popular__buscet">
+                <img src="./img/icons/shopping-bag.svg" alt="">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- popular section finished -->
+
+      <!-- features section started  -->
+
+      <section class="features">
+        
+      </section>
+    </main>
+  </body>
 </html>
